@@ -1,0 +1,50 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+$primary-color: #00adb5;
+
+body {
+  font-family: 'KoHo', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+h3 {
+  font-weight: 300;
+}
+.container {
+  display: flex;
+  width: 600px;
+  margin: auto;
+}
+.letter {
+  padding: 15px 20px;
+  margin: 5px auto;
+  background-color: $primary-color;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+form {
+  input[type="text"] {
+    background-color: #baeaec;
+    border: 2px solid $primary-color;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  input[type="text"]::placeholder {
+    color: $primary-color;
+  }
+  .btn {
+    border: none;
+    border-radius: 5px;
+    background-color: $primary-color;
+    padding: 10px 15px;
+    color: white;
+    font-size: 18px;
+  }
+}
